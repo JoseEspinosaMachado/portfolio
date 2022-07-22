@@ -16,7 +16,7 @@ function PageTransitions() {
 
     // adds .active class to current section
     allSections.addEventListener('click', (e) =>{
-        console.log(e.target); // console logs current target
+        //console.log(e.target); // console logs current target for testing
         const id = e.target.dataset.id;
         if(id) {
             // remove selected 'active' class from the other btns

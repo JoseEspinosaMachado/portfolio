@@ -203,10 +203,31 @@
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
-        background-color: var(--color-grey-5);
+        background-color: var(--color-black);
         .control {
             margin: .6rem 1rem;
+            justify-content: center;
+            &:hover {
+                i {
+                    opacity: 0;
+                    
+                }
+                span {
+                    transform: translateX(0);
+                    opacity: 1;
+                    transition: all .1s ease-in-out;
+                }
+            }
+            i {
+                transform: translateX(0);
+            }
+            .fa-briefcase,
+            .fa-user,
+            .fa-newspaper {
+                transform: translateX(0);
+            }
         }
+        
     }
 }
 
