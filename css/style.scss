@@ -43,7 +43,7 @@
 }
 
 .light-mode {
-  --color-primary: #dbd8ce;
+  --color-primary: #e1dfdd;
   --color-secondary: #BA7E42;
   --color-white: #000;
   --color-black: #000;
@@ -165,7 +165,7 @@ section {
     justify-content: right;
     align-items: center;
     margin: .7rem 0;
-    box-shadow: var(--box-shadow-1);
+    //box-shadow: var(--box-shadow-1);
     &:hover {
       background-color: var(--color-secondary);
       i {
@@ -213,7 +213,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 3px 15px rgba(0,0,0,.3);
+  //box-shadow: 0 3px 15px rgba(0,0,0,.3);
   transition: all .1s ease-in-out;
   &:active {
     transform: translateY(-5px);
@@ -297,7 +297,7 @@ section {
       }
     }
     p {
-      margin: 1.5rem;
+      margin-bottom: 1.5rem;
       line-height: 2rem;
     };
   }
@@ -317,12 +317,12 @@ section {
       border: 1px solid var(--color-grey-5);
       border-radius: 5px;
       transition: all .1s ease-in-out;
-      box-shadow: 1px 2px 15px rgba(0,0,0,.1);
+      //box-shadow: 1px 2px 15px rgba(0,0,0,.1);
       &:hover {
         cursor: default;
         transform: translateY(-5px);
         border: 1px solid var(--color-secondary);
-        box-shadow: 1px 4px 15px rgba(0,0,0,.32);
+        //box-shadow: 1px 4px 15px rgba(0,0,0,.32);
       }
       .abt-text {
         padding: 1.5rem;
@@ -580,16 +580,16 @@ section {
     position: relative;
     background-color: var(--color-grey-5);
     border-radius: 5px;
-    box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+    //box-shadow: 1px 1px 20px rgba(0,0,0,.1);
     transition: all .1s ease-in-out;
     &:hover {
-      box-shadow: 1px 1px 20px rgba(0,0,0,.3);
+      //box-shadow: 1px 1px 20px rgba(0,0,0,.3);
       transform: translateY(-5px);
       transition: all .1s ease-in-out;
       img {
         filter: grayscale(0);
         transform: scale(1.1);
-        box-shadow: 0px 4px 20px rgba(0,0,0,.8);
+        //box-shadow: 0px 4px 20px rgba(0,0,0,.8);
       }
     }
     img {
