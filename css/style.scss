@@ -172,6 +172,7 @@ section {
         color: var(--color-white);
       }
       span {
+        font-size: .7rem;
         transform: translateX(-50px);
         opacity: 1;
         transition: all .1s ease-in-out;
@@ -224,6 +225,7 @@ section {
       color: var(--color-primary);
     }
     span {
+      font-size: .7rem;
       transform: translateX(-75px);
       opacity: 1;
       transition: all .1s ease-in-out;

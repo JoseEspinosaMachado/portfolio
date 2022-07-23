@@ -214,6 +214,7 @@ section {
 }
 
 .controls .control:hover span {
+  font-size: .7rem;
   -webkit-transform: translateX(-50px);
           transform: translateX(-50px);
   opacity: 1;
@@ -283,6 +284,7 @@ section {
 }
 
 .theme-btn:hover span {
+  font-size: .7rem;
   -webkit-transform: translateX(-75px);
           transform: translateX(-75px);
   opacity: 1;
