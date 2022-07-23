@@ -26,7 +26,7 @@
 /*******************************************/
 :root {
   --color-primary: #0D0809;
-  --color-secondary: #926e69;
+  --color-secondary: #9e534b;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -42,7 +42,7 @@
 
 .light-mode {
   --color-primary: #e1dfdd;
-  --color-secondary: #926e69;
+  --color-secondary: #9e534b;
   --color-white: #000;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -51,7 +51,7 @@
   --color-grey-3: #6c7983;
   --color-grey-4: #454e56;
   --color-grey-5: #b2becd;
-  --color-grey-6: #2a2e35;
+  --color-grey-6: #000;
 }
 
 body {
@@ -465,8 +465,8 @@ section {
 
 .about-container .left-about p {
   line-height: 2rem;
-  padding: 1rem;
-  color: var(--color-grey-1);
+  padding: 1rem 1rem 1rem 0;
+  color: var(--color-grey-6);
 }
 
 .about-container .left-about h4 {
@@ -632,13 +632,13 @@ section {
 }
 
 .timeline .timeline-item h5 span {
-  color: var(--color-grey-2);
+  color: var(--color-grey-1);
   font-weight: 500;
   font-size: 1.2rem;
 }
 
 .timeline .timeline-item p {
-  color: var(--color-grey-2);
+  color: var(--color-grey-1);
 }
 
 .portfolio-text {
@@ -765,7 +765,6 @@ section {
 
 .blogs .blog {
   position: relative;
-  background-color: var(--color-grey-5);
   border-radius: 5px;
   -webkit-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
